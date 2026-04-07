@@ -2,7 +2,7 @@
 
 We deploy Azure resources using Bicep to automate the creation and configuration of infrastructure instead of setting up everything manually. It ensures consistency, reduces human errors, and saves time by deploying all required resources. Using Bicep also makes the setup reusable and easy to manage, as the same template can be used multiple times across environments.
 
-### Estimated Duration:
+### Estimated Duration: 120 minutes
 
 ## Overview
 

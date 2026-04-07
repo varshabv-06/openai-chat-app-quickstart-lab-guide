@@ -3,7 +3,7 @@
 Azure OpenAI Service brings the generative AI models developed by OpenAI to the Azure platform, enabling you to develop powerful AI solutions that benefit from the security, scalability, and integration of services provided by the Azure cloud platform. In this exercise, you'll learn how to get started with Azure OpenAI by provisioning the service as an Azure resource and using Azure OpenAI Studio to deploy and explore OpenAI models.
 
 
-### Estimated Duration:
+### Estimated Duration: 40 minutes
 
 ## Overview 
 This lab guides you through building a simple chat application using Azure OpenAI and Python. You will deploy a language model, connect it securely using API credentials, and create a Python-based interface for user interaction. The lab focuses on understanding how Azure OpenAI integrates with applications.

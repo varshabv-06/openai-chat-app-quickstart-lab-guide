@@ -2,7 +2,7 @@
 
 Connecting to an Azure account using CLI allows users to securely access and manage cloud resources from the command line. Cloning a repository using a Git URL helps in retrieving project code and maintaining version control. A Log Analytics Workspace is used to collect, monitor, and analyze logs, enabling better performance tracking and troubleshooting within the Azure environment.
 
-### Estimated Duration:
+### Estimated Duration: 40 minutes
 
 ## Overview
 In this lab, you will cover the initial setup required for the project, including connecting to Azure using CLI and cloning the repository using the Git URL. It also involves configuring the local environment for smooth execution. 
