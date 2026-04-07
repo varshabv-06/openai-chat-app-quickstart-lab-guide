@@ -33,15 +33,16 @@ In this task, you will create an Azure OpenAI resource, which provides access to
 
 1. In the Search bar of the Azure portal, type **Azure Open (1)**, then select **Azure OpenAI (2)**.
     ![](../media/L1-T1-S2.png)
-     Click on + **Create** to create a new workspace and select **Azure OpenAI**.
+
+     Click on + **Create(1)** to create a new workspace and select **Azure OpenAI(2)**.
 
     ![](../media/Lab1-Task1-Step2.png)
 
 1. Create an **Azure OpenAI** resource with the following settings:
     - **Subscription**: An Azure subscription that has been approved for access to the Azure OpenAI service.
     - **Resource group**: Create a new resource group with a name of your choice.
-    - **Region**: Choose any available region.
-    - **Name**: A unique name of your choice.
+    - **Region**: East US
+    - **Name**: openai-azure-chat-app
     - **Pricing tier**: Standard S0
     ![](../media/Lab1-Task1-Step3.png)
     ![](../media/Lab1-Task1-Step3.1.png)
@@ -57,7 +58,7 @@ In this task, you will create an Azure OpenAI resource, which provides access to
 
     > **Note:** Once navigated, copy your **keys** and **endpoints** and save them securely in Notepad for future use.
 
-1. Navigate to the **Deployments** section and click + **Create Deployment** to start setting up a new model deployment.
+1. Navigate to the **Deployments** section and click + **Deploy model** to start setting up a new model deployment.
     ![](../media/Lab1-Task2-Step2.png)
 
 1. Search for the model **gpt-4o-mini**, then set the Deployment name as **chat-model** while configuring the deployment.
@@ -67,4 +68,3 @@ In this task, you will create an Azure OpenAI resource, which provides access to
 
     GPT-4o Mini is a compact version of advanced large language models that provides a balance between performance, speed, and cost. It is optimized for chat-based applications where low latency and scalability are important. The model processes natural language input, understands context, and generates meaningful, coherent responses.
 
-    > **Note:** Copy your **keys** and **endpoints** and save them securely in Notepad for future use.
