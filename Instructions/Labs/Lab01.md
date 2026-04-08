@@ -6,7 +6,7 @@ Azure OpenAI Service brings the generative AI models developed by OpenAI to the 
 ### Estimated Duration: 40 minutes
 
 ## Overview 
-This lab guides you through building a simple chat application using Azure OpenAI and Python. You will deploy a language model, connect it securely using API credentials, and create a Python-based interface for user interaction. The lab focuses on understanding how Azure OpenAI integrates with applications.
+In this lab, you will build a simple chat application using Azure OpenAI and Python. You will deploy a language model, connect it securely using API credentials, and create a Python-based interface for user interaction. The lab focuses on understanding how Azure OpenAI integrates with applications.
 
 ## Objectives
 

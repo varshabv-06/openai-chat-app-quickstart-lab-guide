@@ -32,14 +32,6 @@ In this task, you will use a Bicep file to automatically deploy all required Azu
     ```
 1. Get required values from already deployed resources
 
-   - **Get your Log Analytics Workspace name:**
-
-        Run the following command to list Log Analytics Workspaces, and make sure to replace <rg name> with the provided Resource Group name before executing it:
-        ```powershell
-        az monitor log-analytics workspace list ` --resource-group <rg-name> ` --query "[].name" -o tsv
-        ```
-        ![](../media/l3-t1-s2.png)
-
    - **Get your OpenAI endpoint:**
 
       Run the following command to list Cognitive Services, and make sure to replace <rg name> with the provided Resource Group name before executing it:
@@ -73,7 +65,7 @@ In this task, you will use a Bicep file to automatically deploy all required Azu
         ```
         ![](../media/l3-t1-s2.2.png)
 
-    > **Important:** Note all four values — you will need them in the next step.
+    > **Important:** Note all values — you will need them in the next step.
 
 1. Deploy the infrastructure
 
