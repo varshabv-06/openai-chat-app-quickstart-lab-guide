@@ -53,8 +53,6 @@ to your Container App and access the Logs section to run KQL queries.
 1. If a **Queries** popup window appears, click the **X** to close it 
    and proceed to the query editor.
 
-   ![](../media/l4-t1-s6.png)
-
 1. On the top right of the query editor, click the mode dropdown and 
    select **KQL mode**. This ensures you are writing Kusto Query 
    Language queries.
