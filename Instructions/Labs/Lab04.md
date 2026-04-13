@@ -53,6 +53,21 @@ to your Container App and access the Logs section to run KQL queries.
 1. If a **Queries** popup window appears, click the **X** to close it 
    and proceed to the query editor.
 
+1. To verify your log tables are available click the **Tables** icon 
+   **(1)** on the left sidebar of the query editor. Expand 
+   **LogManagement** → **Custom Logs (2)** and you will see 
+   **ContainerAppConsoleLogs_CL (3)** and 
+   **ContainerAppSystemLogs_CL** listed.
+
+    ![](../media/l4-t1-s9.png)
+
+     These two tables contain all logs from your Container 
+   App. `ContainerAppConsoleLogs_CL` contains application output logs 
+   and `ContainerAppSystemLogs_CL` contains infrastructure-level 
+   system events.
+
+    ![](../media/l4-t1-s7.0.png)
+
 1. On the top right of the query editor, click the mode dropdown and 
    select **KQL mode**. This ensures you are writing Kusto Query 
    Language queries.
@@ -65,18 +80,8 @@ to your Container App and access the Logs section to run KQL queries.
 
     ![](../media/l4-t1-s8.png)
 
-1. To verify your log tables are available click the **Tables** icon 
-   **(1)** on the left sidebar of the query editor. Expand 
-   **LogManagement** → **Custom Logs (2)** and you will see 
-   **ContainerAppConsoleLogs_CL (3)** and 
-   **ContainerAppSystemLogs_CL** listed.
 
-    ![](../media/l4-t1-s9.png)
-
-   > **Note:** These two tables contain all logs from your Container 
-   App. `ContainerAppConsoleLogs_CL` contains application output logs 
-   and `ContainerAppSystemLogs_CL` contains infrastructure-level 
-   system events.
+   
 
 
 ### Task 2 - Analyse Application Logs using KQL Queries
@@ -131,3 +136,6 @@ application is running. The results will show columns including
     ```
 
    ![](../media/l4-t2-s3.png)
+
+>**Summarization:** Monitor using Log Analytics Workspace (30 min)
+Users send messages in the chat app to generate logs, navigate to the Log Analytics Workspace in the portal, switch to KQL mode, and run three queries — console logs, full column exploration, and log activity count over time — to understand how the application is running in production.

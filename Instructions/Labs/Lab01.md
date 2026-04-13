@@ -34,7 +34,7 @@ In this task, you will create an Azure OpenAI resource, which provides access to
 1. In the Search bar of the Azure portal, type **Azure Open (1)**, then select **Azure OpenAI (2)**.
     ![](../media/L1-T1-S2.png)
 
-     Click on + **Create(1)** to create a new workspace and select **Azure OpenAI(2)**.
+     Click on + **Create(1)** to create a new workspace and select **Azure OpenAI(2)** in Microsoft Foundary.
 
     ![](../media/Lab1-Task1-Step2.png)
 
@@ -42,9 +42,10 @@ In this task, you will create an Azure OpenAI resource, which provides access to
     - **Subscription**: An Azure subscription that has been approved for access to the Azure OpenAI service.
     - **Resource group**: Create a new resource group with a name of your choice.
     - **Region**: East US
-    - **Name**: openai-azure-chat-app
+    - **Name**: openai-azure-chatapp
     - **Pricing tier**: Standard S0
     ![](../media/Lab1-Task1-Step3.png)
+    Click **Next**, **Review + Submit** and then **Create**
     ![](../media/Lab1-Task1-Step3.1.png)
      Once it's created, click on **Go to resource**
 
@@ -68,3 +69,9 @@ In this task, you will create an Azure OpenAI resource, which provides access to
 
     GPT-4o Mini is a compact version of advanced large language models that provides a balance between performance, speed, and cost. It is optimized for chat-based applications where low latency and scalability are important. The model processes natural language input, understands context, and generates meaningful, coherent responses.
 
+
+
+
+>**Summarization:**
+Get started with Azure OpenAI Service (40 min)
+Users create an Azure OpenAI resource in the portal, navigate to Azure AI Foundry, deploy a gpt-4o-mini model named chat-model, and save the endpoint and keys. This sets up the AI backbone that all other labs depend on.

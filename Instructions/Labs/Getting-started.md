@@ -17,7 +17,6 @@ By the end of this lab, you will be able to:
 
 - Create an Azure OpenAI resource and deploy a GPT-4o-mini language model through Azure AI Foundry.
 - Connect to Azure CLI from Cloud Shell, clone the project repository, and configure environment variables.
-- Deploy Azure infrastructure including Container Apps Environment, Container Registry, and Managed Identity using a Bicep template.
 - Build and push a Docker image to Azure Container Registry using ACR Build without any local Docker installation.
 - Configure secure passwordless access using Azure RBAC role assignments on a Managed Identity.
 - Test the live AI-powered chat application and monitor application logs using Log Analytics Workspace and KQL queries.
@@ -100,7 +99,7 @@ This lab is divided into four labs. Here is a quick overview of what each lab co
 | Lab 01 | Get Started with Azure OpenAI Service | 40 minutes |
 | Lab 02 | Azure Integration and Environment Configuration | 40 minutes |
 |  | Break | 20 minutes | 
-| Lab 03 | Deploy Azure Resources using Bicep | 120 minutes |
+| Lab 03 | Build, Push and Deploy the Azure OpenAI Chat Application | 120 minutes |
 | Lab 04 | Monitor the Chat Application using Log Analytics Workspace | 30 minutes |
 
 > **Note:** Each lab builds on the previous one. Complete them in order. Do not skip any lab as the resources created in earlier labs are required in later labs.

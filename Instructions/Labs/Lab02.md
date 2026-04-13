@@ -93,8 +93,19 @@ In this task, you will build the application locally, configure Azure OpenAI con
 
     ```
     ![](../media/L2-T2-S3.1.png)
+
+
    >**Important:** Use the previously stored endpoint and API key from the Azure AI Foundry portal to configure the **.env file**. Enter the AZURE_OPENAI_ENDPOINT with your saved endpoint URL. Then specify the deployment name as chat-model and set the API version as provided.Paste it into the .env file to complete the setup.
    
    >**Note:** Ensure all values are correctly copied from your saved notes to avoid connection errors. These stored credentials are essential for securely connecting your application to Azure OpenAI. This step completes the configuration required for enabling AI functionality in your app.
+   
+1. Once you have filled in all values, save the file and run the following command to create the active environment file:
 
+    ```
+    cp .env.sample .env
+    ```
+    
 
+>**Summarization:**
+Azure Integration and Environment Configuration (40 min)
+Users open Cloud Shell, run az login to authenticate, clone the application repository from GitHub, and configure the .env.sample file with the OpenAI endpoint, deployment name, API version, and Tenant ID. This prepares the local development environment inside Cloud Shell.
