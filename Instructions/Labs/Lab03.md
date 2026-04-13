@@ -24,6 +24,13 @@ In this lab, you will perform the following:
     A prompt will appear with a link (https://login.microsoft.com/device); click the link and open it in your browser. Enter the provided device code and sign in using the given email ID, then click Continue. After successful authentication, return to Cloud Shell and select the required subscription by entering the corresponding number. Once completed, you can proceed with the remaining steps.
     ![](../media/l3-t1-s0.png)
 
+**Azure Container Apps:**
+Azure Container Apps is a serverless container hosting service that allows you to run containerized applications without managing underlying infrastructure such as virtual machines or Kubernetes clusters.
+
+**Azure Container Registry (ACR):** Azure Container Registry is a private registry service used to store and manage container images securely within Azure.
+
+**Managed Identity:** Managed Identity is an Azure feature that provides an automatically managed identity for Azure resources, enabling secure authentication without storing credentials such as API keys or passwords.
+
 ### Task 1: Verify Deployed Resources and Gather Required Values
 
 In this task, you review components like the resource group, container app, registry, and supporting services to ensure everything is properly configured. You also collect important values such as endpoints, keys, and connection details needed for later steps. This task ensures your environment is ready and avoids issues in subsequent deployment or testing stages.
